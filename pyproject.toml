@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fibrous_limit_order"
+version = "1.0.0"
+description = "A Python SDK for Fibrous Finance Limit Order"
+authors = ["zeroonesymphony <kermo@fibrous.finance>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+
+[tool.poetry.group.dev.dependencies]
+starknet-py = "^0.21.0"
+aiohttp = "^3.9.5"
+asyncio = "^3.4.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
